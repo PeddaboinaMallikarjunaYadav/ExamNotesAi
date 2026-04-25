@@ -1,0 +1,35 @@
+import mongoose from "mongoose";
+
+const notesSchema = new mongoose.Schema({
+    user:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "UserModel",
+        required: true
+    },
+    topic: {
+        type: String,
+        required: true
+    },
+
+    classLevel: String,
+    ExamType: String,
+
+    revisionMode: {
+        type: Boolean,
+        default: false,
+    },
+
+    includeDiagram: Boolean,
+    includeChart: Boolean,
+
+    content: {
+        type: mongoose.Schema.Types.Mixed, // AI Response (string / JSON) data so mixed
+        required: true
+    },
+
+
+}, {timestamps:true})
+
+const Notes = mongoose.model("Notes", notesSchema)
+
+export default Notes
