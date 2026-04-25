@@ -27,7 +27,7 @@ AI-powered notes platform built with MERN stack.
 
 ### 1. Clone the repo
 
-git clone <your-repo-url>
+git clone (https://github.com/PeddaboinaMallikarjunaYadav/ExamNotesAi.git)
 
 ### 2. Install dependencies
 
