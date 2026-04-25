@@ -56,6 +56,7 @@ npm run dev
 ## 📸 Screenshots
 
 <img width="2500" height="2830" alt="ExamNotesAI" src="https://github.com/user-attachments/assets/a6a91228-f2e9-4fde-b685-3c3bbba4c6b9" />
+
 <img width="2500" height="1836" alt="ExamNotesAIGeneratingNotes" src="https://github.com/user-attachments/assets/4f20e3bb-d5b8-4e1a-861b-f41b529fe11e" />
 
 
