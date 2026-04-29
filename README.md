@@ -46,12 +46,12 @@ Create `.env` files using `.env.example`
 
 # backend
 
-cd server
+Go to the backend using: cd server
 npm run dev
 
 # frontend
 
-cd client
+Go to the frontend using: cd client
 npm run dev
 
 ## 📸 Screenshots
