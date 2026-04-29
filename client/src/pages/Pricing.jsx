@@ -156,9 +156,9 @@ function PricingCard({
           ${
             isPayingThisCard
               ? "bg-gray-300 cursor-not-allowed"
-              : isSelected
-                ? "bg-black text-white"
-                : "bg-indigo-600 text-white hover:bg-indigo-700"
+              : popular
+                ? "bg-indigo-600 text-white hover:bg-indigo-700"
+                : "bg-black text-white hover:bg-gray-800"
           }`}
       >
         {isPayingThisCard ? "Redirecting..." : "Buy Now"}
