@@ -9,6 +9,7 @@ AI-powered notes platform built with MERN stack.
 * Generate diagrams using Mermaid
 * Authentication system
 * PDF export support
+* Visualise previously Generated Notes
 
 ## 🚧 In Progress
 
