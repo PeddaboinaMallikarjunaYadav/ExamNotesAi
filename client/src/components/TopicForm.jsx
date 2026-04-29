@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { motion, transformValueTypes } from "motion/react";
+import { motion } from "motion/react";
 import { useState } from "react";
 import { generateNotes } from "../services/api";
 import { useDispatch } from "react-redux";
@@ -186,7 +186,7 @@ function TopicForm({ setResult, setLoading, loading, setError }) {
             This may take upto 2-5 minutes. Please don't close or refresh the
             page
           </p>
-          <p className="text-xs text-gray-700 text-center">
+          <p className="text-xs text-gray-500 text-center">
             *ExamNotesAI can make mistakes. Check the Notes carfully.
           </p>
         </div>

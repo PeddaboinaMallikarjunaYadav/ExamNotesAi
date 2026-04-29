@@ -13,7 +13,7 @@ function Footer() {
   const handleSignOut = async () => {
     try {
       await axios.post(serverUrl + "/api/auth/logout", {
-        withCredentials: true,
+        withCredentials: true,  
       });
       dispatch(setUserData(null));
       navigate("/auth");
