@@ -3,7 +3,7 @@
 AI-powered notes generation platform built using the MERN stack.
 Generate structured notes, diagrams, and PDFs with a credit-based system powered by Stripe.
 
-🔗 **Live Demo:** [ExamNotesAi_FullStack.com](https://examnotesaiclient-9wgc.onrender.com)
+🔗 **Live Demo:** [ExamNotesAi_FullStack.com](https://examnotesaiclient-9wgc.onrender.com) <br>
 🔗 **Backend Link:** [ExamNotesAi_Server.com](https://examnotesaiserver-h1jn.onrender.com)
 
 
