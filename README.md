@@ -140,7 +140,7 @@ ExamNotesAi/
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/ExamNotesAi.git
+git clone https://github.com/PeddaboinaMallikarjunaYadav/ExamNotesAi.git
 ```
 
 ### 2. Install dependencies
