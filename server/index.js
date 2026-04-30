@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(cookieParser()); // To Store token in cookie
 app.use(
   cors({
-    origin: "http://localhost:5173", // Only to be accessed by the client(frontend)
+    origin: "https://examnotesaiclient-9wgc.onrender.com", // Only to be accessed by the client(frontend)
     credentials: true, // To access cookies and headers
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   }),
