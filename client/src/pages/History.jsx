@@ -112,7 +112,7 @@ function History() {
           </button>
           <button
             onClick={() => setSidebarOpen((prev) => !prev)}
-            className="lg:hidden text-white text-2xl"
+            className="lg:hidden text-white text-2xl cursor-pointer"
           >
             <RxHamburgerMenu />
           </button>
@@ -137,7 +137,7 @@ function History() {
             >
               <button
                 onClick={() => setSidebarOpen(false)}
-                className="lg:hidden text-white mb-4"
+                className="lg:hidden text-white mb-4 cursor-pointer"
               >
                 ⬅️ Back
               </button>
@@ -148,7 +148,8 @@ function History() {
                   className="w-full px-3 py-2 text-start 
                 rounded-lg text-sm 
                 text-gray-200
-                bg-white/10 hover:bg-white/20"
+                bg-white/10 hover:bg-white/20
+                cursor-pointer"
                 >
                   ➕ New Notes
                 </button>

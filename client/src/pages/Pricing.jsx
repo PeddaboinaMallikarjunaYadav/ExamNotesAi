@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "motion/react";
+import { serverUrl } from "../App";
+import axios from 'axios'
 
 function Pricing() {
   const [selectedPrice, setSelectedPrice] = useState(null);
@@ -12,7 +14,20 @@ function Pricing() {
     try {
       setPayingAmount(amount);
       setPaying(true);
-    } catch (error) {}
+      const result = await axios.post(
+        serverUrl + "/api/credit/order",
+        { amount },
+        { withCredentials: true },
+      );
+
+      if (result.data.url) {
+        window.location.href = result.data.url;
+      }
+      setPaying(false);
+    } catch (error) {
+      setPaying(false);
+      console.log(error);
+    }
   };
   return (
     <div className="min-h-screen bg-gray-100 px-6 py-10 relative">
