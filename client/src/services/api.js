@@ -20,7 +20,6 @@ export const generateNotes = async (payload) => {
       payload,
       { withCredentials: true },
     );
-    console.log(result.data);
     return result.data;
   } catch (error) {
     console.log(error.response?.data || error.message);
