@@ -1,6 +1,5 @@
 import jwt from "jsonwebtoken"
 
-
 // Authorize the user by verifying the token 
 const isAuth = async (req, res, next) => {
     try {
