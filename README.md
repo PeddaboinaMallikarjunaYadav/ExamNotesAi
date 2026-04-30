@@ -13,7 +13,6 @@ AI-powered notes platform built with MERN stack.
 
 ## 🚧 In Progress
 
-* Stripe payment integration
 * Performance optimizations
 * Caching
 
