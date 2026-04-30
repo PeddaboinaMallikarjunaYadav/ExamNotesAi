@@ -2,7 +2,7 @@
 
 AI-powered notes platform built with MERN stack.
 
-🔗 Live Demo: [https://your-deployed-link.com](https://examnotesaiclient-9wgc.onrender.com)
+🔗 Live Demo: [ExamNotesAi.com](https://examnotesaiclient-9wgc.onrender.com)
 
 ## 🚀 Features
 
