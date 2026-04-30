@@ -4,7 +4,6 @@ const gemini_url =
 
 // Generating gemini Response
 export const generateGeminiResponse = async (prompt) => {
-  console.log("API HIT - generateNotes called");
   try {
     // Sending the Request to Gemini API using POST method
     const response = await fetch(
