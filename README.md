@@ -2,6 +2,8 @@
 
 AI-powered notes platform built with MERN stack.
 
+🔗 Live Demo: [https://your-deployed-link.com](https://examnotesaiclient-9wgc.onrender.com)
+
 ## 🚀 Features
 
 * Generate structured notes using AI
@@ -10,11 +12,8 @@ AI-powered notes platform built with MERN stack.
 * Authentication system
 * PDF export support
 * Visualise previously Generated Notes
+# ExamNotes AI 🚀
 
-## 🚧 In Progress
-
-* Performance optimizations
-* Caching
 
 ## 🛠️ Tech Stack
 
