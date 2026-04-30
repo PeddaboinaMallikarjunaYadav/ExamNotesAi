@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
-import MermaidSetup from "./MermaidSetup";
-import RechartSetup from "./RechartSetup";
+import MermaidSetup from "./MermaidSetup.jsx";
+import RechartSetup from "./RechartSetup.jsx";
 import { downloadPdf } from "../services/api";
 
 const markDownComponent = {

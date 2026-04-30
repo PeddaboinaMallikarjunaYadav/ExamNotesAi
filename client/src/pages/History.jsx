@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { RxHamburgerMenu } from "react-icons/rx";
-import FinalResult from "../components/FinalResult";
+import FinalResult from "../components/FinalResult.jsx";
 
 function History() {
   const navigate = useNavigate();

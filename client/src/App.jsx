@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import Home from "./pages/home";
-import Auth from "./pages/auth";
+import Home from "./pages/Home.jsx";
+import Auth from "./pages/Auth.jsx";
 import { getCurrentUser } from "./services/api";
 import { useDispatch, useSelector } from "react-redux";
-import History from "./pages/History";
-import Notes from "./pages/Notes";
-import Pricing from "./pages/Pricing";
+import History from "./pages/History.jsx";
+import Notes from "./pages/Notes.jsx";
+import Pricing from "./pages/Pricing.jsx";
 import PaymentSuccess from "./pages/PaymentSuccess";
 import PaymentFailed from "./pages/PaymentFailed";
 
